@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="text_size_recipe_title">24sp</dimen>
+    <dimen name="image_size_small_icon">24dp</dimen>
+    <dimen name="text_size_small_icon">12sp</dimen>
+    <dimen name="image_size_recipe_circle">100dp</dimen>
+    <dimen name="image_size_step_circle">75dp</dimen>
+    <dimen name="text_size_step_short_desc">16sp</dimen>
+    <dimen name="text_size_step_long_desc">24sp</dimen>
+    <dimen name="text_size_widget_title">14sp</dimen>
+    <dimen name="text_size_widget_body">12sp</dimen>
+
+    <!-- Standard Padding -->
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+
+    <!-- Grid Spacing -->
+    <dimen name="grid_regular_spacing">2dp</dimen>
+
+    <item name="match_parent" type="dimen">-1</item>
+    <item name="wrap_content" type="dimen">-2</item>
+
+    <!-- Recipe List Page -->
+    <dimen name="recipe_list_card_width">@dimen/match_parent</dimen>
+    <dimen name="item_recipe_list_grid_width">160dp</dimen>
+
+</resources>

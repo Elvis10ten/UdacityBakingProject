@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="share_recipe">Share Recipe</string>
+    <string name="steps_number_format">Step: %1$d</string>
+    <string name="network_error_recipes">Error retrieving the recipes</string>
+    <string name="appwidget_text">Recipe Shopping List</string>
+
+    <!-- Recipe List Page Start -->
+    <string name="recipe_list_error_offline">You are currently offline. Please connect to the internet and try again.</string>
+    <string name="recipe_list_error_loading_list">An error occurred while loading the list of recipes. Please try again later.</string>
+    <string name="recipe_list_loading_recipe">Loading recipe…</string>
+    <string name="recipe_list_action_try_again">Try Again</string>
+
+    <string name="recipe_list_content_desc_image">%1$s Image</string>
+    <string name="recipe_list_content_desc_close_page">Close page</string>
+    <plurals name="recipe_list_servings_count">
+        <item quantity="one">%1$s Serving</item>
+        <item quantity="other">%1$s Servings</item>
+    </plurals>
+
+    <string name="recipe_list_content_desc_chef">Chef</string>
+    <string name="recipe_list_welcome_title">Welcome Miriam!</string>
+    <string name="recipe_list_welcome_sub_title">What will you like to prepare today ?</string>
+    <!-- Recipe List Page End -->
+
+    <!-- Recipe Widget Start -->
+    <string name="recipe_widget_item_ingredient">%1$s %2$s - %3$s</string>
+    <!-- Recipe Widget End -->
+
+    <!-- Recipe Details Page Start -->
+    <string name="recipe_details_item_ingredient">+ %1$s %2$s of %3$s \n</string>
+    <string name="recipe_details_ingredients_title">Ingredients</string>
+    <string name="recipe_details_steps_title">Steps</string>
+
+    <string name="recipe_details_step_name">%1$d. %2$s</string>
+    <!-- Recipe Details Page End -->
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Recipe List Page -->
+    <dimen name="recipe_list_card_width">540dp</dimen>
+
+</resources>

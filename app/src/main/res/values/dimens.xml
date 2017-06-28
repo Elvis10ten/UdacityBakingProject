@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="text_size_widget_title">14sp</dimen>
+
+    <!-- Standard Padding -->
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+
+    <!-- Grid Spacing -->
+    <dimen name="grid_regular_spacing">2dp</dimen>
+
+    <item name="match_parent" type="dimen">-1</item>
+
+    <!-- Recipe List Page -->
+    <dimen name="recipe_list_card_width">@dimen/match_parent</dimen>
+    <dimen name="item_recipe_list_grid_width">160dp</dimen>
+
+</resources>

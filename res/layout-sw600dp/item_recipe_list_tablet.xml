@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="@dimen/item_recipe_list_grid_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/recipe_list_iv"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@null"
+            tools:src="@drawable/cheesecake"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="68dp"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"
+            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/recipe_list_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/primary_text_light"
+                android:fontFamily="@string/font_family_regular"
+                tools:text="Recipe name"/>
+
+            <TextView
+                android:id="@+id/recipe_list_servings_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/secondary_text_light"
+                android:fontFamily="@string/font_family_regular"
+                tools:text="4 Servings"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

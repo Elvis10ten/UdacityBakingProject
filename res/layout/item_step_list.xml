@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/step_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:minHeight="56dp"
+        android:background="@drawable/bg_selector_step"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/step_indicator_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:tint="@color/active_icon_dark"
+            android:contentDescription="@null"
+            tools:src="@drawable/ic_play_arrow_white_48dp" />
+
+        <TextView
+            android:id="@+id/step_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:fontFamily="@string/font_family_regular" />
+
+    </LinearLayout>
+
+</layout>
